@@ -1,28 +1,73 @@
 <!DOCTYPE html> 
-<HTml lang="fr">
+<HTml lang="fr"> <!-- ❌ Mauvaise casse : "HTml" doit être en minuscule -->
+<!-- ✅ Correction : <html lang="fr"> -->
+<!-- 🔧 Le travail est bien lancé, bravo pour l'effort ! 💪
+Il reste quelques erreurs à corriger dans le code HTML (liens, majuscules, accents, attributs).
+Prends le temps de bien relire et d’appliquer les corrections proposées en commentaires.
+
+🎯 Objectif : améliorer la qualité du code et apprendre à structurer une page proprement.
+Tu es sur la bonne voie, continue comme ça ! 🚀
+
+✅ Une fois corrigé, n’oublie pas de faire un nouveau commit avec un message clair :
+"Corrections HTML effectuées - Merci  🙌" -->
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport"content="width=devicde-width, initial-scale=1.0">
-    <title> GREEN KITCHEN</title>
+    <meta name="viewport" content="width=devicde-width, initial-scale=1.0">
+    <!-- ❌ "devicde-width" mal orthographié -->
+    <!-- ✅ Correction : width=device-width -->
+    
+    <title> GREEN KITCHEN</title> <!-- ✅ Titre correct, mais l'espacement est inutile -->
 </head>
+
 <body>
-    <h1>Bienvenue chez GREEN KITCHEN</h1>
+    <h1>Bienvenue chez GREEN KITCHEN</h1> <!-- ✅ OK, mais écrire en minuscule + majuscules initiales pour lisibilité -->
+    <!-- ✅ Suggestion : Bienvenue chez Green Kitchen -->
+
     <ul>
-   <li> <a href="repas">repas</a><br></li>
-   <li> <a href="temoignage">temoignage</a></li>
+        <li><a href="repas">repas</a><br></li> <!-- ❌ Lien invalide (doit être une ancre) et <br> inutile ici -->
+        <!-- ✅ Correction : <a href="#repas">Repas</a> -->
+
+        <li><a href="temoignage">temoignage</a></li> <!-- ❌ Lien à corriger comme ci-dessus + faute d'orthographe -->
+        <!-- ✅ Correction : <a href="#temoignage">Témoignage</a> -->
     </ul>
-    <p></p>
-    <h2>Nos repas ecologique</h2>
-    <p>Decouvrez une variete de repas sains et delicieux</p>
-    <h3>gyoza japanese</h3>
-    <p> un delice vegetarien </p>
-    <img src="photo1.jpeg" alt="">
-    <h3>salade d'Avocat</h3>
-    <p>rafraichissante et nutritive</p>
-    <img src="photo2.jpeg" alt="">
-    <h2>temoignage de clients</h2>
-    <img src="photo3.jpeg" alt="">
-    <p>"Un service exceptionnel et des repas delicieux"-ad._.informatique</p>
-    <p>@green kitchen tous droits reserves</p>
+
+    <p></p> <!-- ❌ Paragraphe vide, à supprimer -->
+
+    <h2 id="repas">Nos repas ecologique</h2> <!-- ❌ "ecologique" doit être au pluriel et avec accent -->
+    <!-- ✅ Correction : Nos repas écologiques -->
+
+    <p>Decouvrez une variete de repas sains et delicieux</p> <!-- ❌ Accent manquants -->
+    <!-- ✅ Correction : Découvrez une variété de repas sains et délicieux -->
+
+    <h3>gyoza japanese</h3> <!-- ❌ Majuscules et traduction -->
+    <!-- ✅ Correction : Gyoza japonais -->
+
+    <p> un delice vegetarien </p> <!-- ❌ Manque de majuscules, accents, espace en trop -->
+    <!-- ✅ Correction : Un délice végétarien -->
+
+    <img src="photo1.jpeg" alt=""> <!-- ❌ Image sans texte alternatif -->
+    <!-- ✅ Correction : alt="Photo de gyoza" -->
+
+    <h3>salade d'Avocat</h3> <!-- ❌ Incohérence majuscules -->
+    <!-- ✅ Correction : Salade d'avocat -->
+
+    <p>rafraichissante et nutritive</p> <!-- ❌ Accent manquant -->
+    <!-- ✅ Correction : Rafraîchissante et nutritive -->
+
+    <img src="photo2.jpeg" alt=""> <!-- ❌ alt vide -->
+    <!-- ✅ Correction : alt="Salade d'avocat" -->
+
+    <h2 id="temoignage">temoignage de clients</h2> <!-- ❌ Manque de majuscules et accent -->
+    <!-- ✅ Correction : Témoignage de clients -->
+
+    <img src="photo3.jpeg" alt=""> <!-- ❌ alt vide -->
+    <!-- ✅ Correction : alt="Photo client satisfait" -->
+
+    <p>"Un service exceptionnel et des repas delicieux"-ad._.informatique</p> <!-- ❌ Accent et ponctuation -->
+    <!-- ✅ Correction : "Un service exceptionnel et des repas délicieux" – ad._.informatique -->
+
+    <p>@green kitchen tous droits reserves</p> <!-- ❌ Majuscules manquantes -->
+    <!-- ✅ Correction : © Green Kitchen – Tous droits réservés -->
 </body>
-</HTml>
+</HTml> <!-- ❌ Encore une fois, mauvaise casse -->
+<!-- ✅ Correction : </html> -->
